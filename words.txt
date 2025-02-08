@@ -1,2 +1,2 @@
-uiu d ksdfkhs dd 
-t
+printf exit int float scanf
+return void bool 
