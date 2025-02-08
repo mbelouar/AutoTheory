@@ -23,27 +23,27 @@ This project implements a finite state automaton (FSA) parser and analyzer. It p
    ```
 2. Compile the source files using `make`:
    ```sh
-   make
+   make (gen_dot_file / find_word / find_in_file)
    ```
 
 ## Usage
 ### Generate DOT File for Visualization
 ```sh
-./gen_main input.txt output.dot
+./gen_dot_file input.txt output.dot
 ```
 - `input.txt`: Input file containing the automaton description
 - `output.dot`: Generated Graphviz DOT file
 
 ### Check if a Word is Recognized
 ```sh
-./find_word_main input.txt word
+./find_word input.txt word
 ```
 - `input.txt`: Input file with automaton data
 - `word`: Word to check in the automaton
 
 ### Find Words in a File
 ```sh
-./find_in_file_main input.txt words.txt
+./find_in_file input.txt words.txt
 ```
 - `input.txt`: Input file with automaton data
 - `words.txt`: File containing words to check
@@ -61,8 +61,9 @@ This project implements a finite state automaton (FSA) parser and analyzer. It p
 │   ├── get_dot_file.c       # Generate .dot files for visualization
 │   ├── gen_main.c           # Entry point for .dot file generation
 │   ├── parser.c             # Automaton parser implementation
-├── tests
-│   ├── test.txt             # Test file containing automaton and word data
+├── Automations
+│   ├── Automata1.txt             # Test file containing automaton and word data
+|   ├── Automata2.txt
 ├── Makefile                 # Compilation instructions
 └── README.md                # Documentation
 ```
