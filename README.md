@@ -19,7 +19,7 @@ This project implements a finite state automaton (FSA) parser and analyzer. It p
 1. Clone the repository:
    ```sh
    git clone https://github.com/mbelouar/AutoTheory.git
-   cd automate
+   cd AutoTheory
    ```
 2. Compile the source files using `make`:
    ```sh
@@ -67,9 +67,6 @@ This project implements a finite state automaton (FSA) parser and analyzer. It p
 └── README.md                # Documentation
 ```
 
-### Contributing
+## Contributing
 Feel free to open issues and submit pull requests if you have improvements or bug fixes.
-
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
