@@ -67,9 +67,9 @@ This project implements a finite state automaton (FSA) parser and analyzer. It p
 └── README.md                # Documentation
 ```
 
-## Contributing
+### Contributing
 Feel free to open issues and submit pull requests if you have improvements or bug fixes.
 
-## License
+### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
